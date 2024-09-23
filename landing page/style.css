@@ -1,0 +1,299 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+/*nav 1 starts*/
+.nav-bar{
+    display:flex;
+    background: linear-gradient(to right,hsl(16, 100%, 50%),magenta,fuchsia);
+    color:whitesmoke;
+  
+}
+.nav{
+    margin:10px;
+    padding:8px;
+    position:relative;
+font-size: 20px;
+left:8%;
+
+}
+
+
+.nav i{
+    padding:10px;
+    border-left:1px solid white;
+
+}
+.nav i:hover{
+    
+    box-shadow: 2px 2px 4px 4px white;
+}
+.nav .ri-linkedin-box-fill{
+    border-right:1px solid white ;
+}
+.contact{
+    margin:10px;
+    padding:8px; 
+    position: relative;
+    left:18%;
+}
+.contact span{
+    padding:10px;
+}
+.start{
+    margin:10px;
+    padding:8px;
+    position: relative;
+    left:28%;
+    text-transform: capitalize;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+.start:hover{
+    box-shadow: 2px 2px 3px 3px whitesmoke;
+    background-color:white;
+    color: black;
+}
+/*nav 1 ends*/
+.nav-bar2{
+    display:flex;
+    text-transform: capitalize;
+
+    
+}
+.logo-head{
+    margin:5px;padding:10px;
+text-transform: uppercase;
+position: relative;
+left:13%;
+}
+.ri-community-fill{
+    font-size: 30px;
+    padding: 10px;
+    position: relative;
+    left:14%;
+    background:linear-gradient(hsl(16, 100%, 50%),magenta,fuchsia);
+    margin: 5px;
+    border-radius: 30px;
+    color: aliceblue;
+}
+.nav2{
+
+    position: relative;
+    left:18%;
+    display: flex;
+    
+}
+.nav2 a{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    text-align: center; 
+    margin: 5px;
+
+}
+ 
+
+.nav2 li{
+    list-style-type: none; 
+    padding: 18px;
+}
+.nav2 li:hover{
+    background-color:hsl(16, 100%, 50%) ;
+  margin: 0%;
+ 
+}
+.search{
+    
+    padding:15px;
+    position:relative;
+    left:23%;
+    background-color: black;
+    color:white;
+}
+.head-img{
+    background-image: url('conversation.webp');
+   height:90vh;
+   background-size: cover;
+   background-repeat: no-repeat;
+   
+}
+.head-img1{
+    background-color: black;
+    height:90vh;
+    width:100%;
+    opacity:0.5;
+}
+.head-para{
+    position:relative;
+    bottom:70%;
+    color:white;
+    left:15%;
+    border-left:1px solid fuchsia;
+
+}
+.head-para  .span1{
+padding:10px;
+margin:5px;
+text-shadow: -5px -9px 2px white;
+letter-spacing: 7px;
+opacity: 0.5;
+text-transform: uppercase;
+}
+.head-para h1{
+    padding:10px;
+    margin:10px;
+    text-transform: uppercase;
+    opacity: 0.4;
+}
+.head-para h1 span{
+    
+    opacity: 0.3;
+}
+.head-para p{
+    padding:10px;
+    margin: 5px;
+    opacity: 0.7;
+}
+.head-para button{
+    padding:12px;
+    margin:15px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    background: linear-gradient(to right,hsl(16, 100%, 50%),magenta,fuchsia);
+    box-shadow: 2px 2px 15px magenta;
+}
+/*header page ends*/
+/*section column starts*/
+.section-column{
+    display: flex;
+    background: linear-gradient(to right,hsl(16, 100%, 50%),magenta,fuchsia);
+    
+    
+}
+.section-column span{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.section-column i{
+    border: 1px solid white;
+    border-radius: 50px;
+    padding:10px;
+    color:aliceblue;
+    font-size: 25px;;
+    margin:10px;
+}
+.section-column div{
+    padding:25px;
+    margin: 15px;;
+    
+}
+.section-column span{
+    margin-left: 15px;
+}
+.section-column p{
+    margin-top: 20px;;
+}
+/*about page starts*/
+.about{
+    display:flex;
+    margin:10px;
+    padding:10px;
+    text-transform: capitalize;
+    position: relative;
+    left:10%;
+}
+.about-para .line{
+    border-bottom: 3px solid magenta;
+    width:25%;
+    margin-top: 15px;
+}
+.about-para h3 {
+ margin-top: 20px;
+}
+.about-para p{
+margin-top: 10px;
+line-height: 25px;
+  
+}
+.about-para button{
+    background: linear-gradient(hsl(16, 100%, 50%),magenta,fuchsia);
+    padding:15px;
+    margin-top:20px;
+    border-radius: 25px;;
+    text-transform: uppercase;
+}
+.about-img {
+    margin-left:100px;
+    position: relative;
+    bottom:10%;
+}
+.about-img .border{
+    border-right: 5px solid fuchsia;
+    border-bottom:5px solid hsl(16, 100%, 50%);
+    border-left: 5px solid magenta;
+    border-top: 5px solid rgb(216, 119, 40) ;
+    position: relative;
+    width:50%;
+    height: 20%;
+    bottom:20%;
+    box-shadow: 1px 1px 2px 1px hsl(16, 100%, 50%) inset;
+    z-index: -1;
+}
+.services-b{
+ display:flex;
+ margin-left:10%;
+ margin-top: 20px;
+ 
+}
+.services{
+background-color: rgb(240, 235, 235);
+padding:10px;
+
+ }
+ .services h1{
+    margin-left: 12%;
+    text-transform: uppercase;
+    margin-top: 8px;
+  
+ }
+ .services .border-line{
+    border-bottom: 3px solid magenta;
+    width:12%;
+margin-left: 15%;
+margin-top: 5px;
+ }
+ .s-img1{
+margin:10px;
+padding:10px;
+ }
+ .s-img2{
+    margin:10px;
+    padding:13px; 
+ }
+ .s-img3{
+    margin:10px;
+    padding:13px;
+     }
+     .services-b .logos{
+        background-color: white;
+        padding: 10px;;
+        width:90%;
+        border-radius: 20px;
+        position: relative;
+        bottom:15%;
+     }
+     .services-b .logos i{
+        background: linear-gradient(hsl(16, 100%, 50%),magenta,fuchsia);
+        padding: 10px;
+        color:white;
+        border-radius: 30px;
+        margin: 2px;
+     }
+     .services-b .logos span{
+        margin-left: 10px;
+        text-transform: uppercase;
+     }
